@@ -6,11 +6,12 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Estudo Bootstrap</title>
+  <title>Estudo Sobre Bootstrap e Responsividade</title>
   <meta name="description" content="Conteúdos sobre o estudo em CSS em um nível avançado.">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="style/normalize.css">
   <link rel="stylesheet" href="style/estilo.css">
+  <link rel="stylesheet" href="/Estudo HTML _ CSS Especial/bootstrap/css/bootstrap.min.css">
   
  </head>
 
@@ -20,7 +21,7 @@
   <!-- INÍCIO CABEÇALHO -->
   <div id="corpo-cabecalho">
 
-    <h1 id="titulo-pagina">Estudo Sobre Bootstrap e Responsividade </h1>
+    <h1 id="titulo-pagina"> Estudo Sobre Bootstrap e Responsividade </h1>
 
   </div>
   <!-- FIM CABEÇALHO -->
@@ -29,14 +30,79 @@
   <div id="corpo-conteudo">
 
     <!-- NORMALIZE -->
+    
 
     <br>
-    <h2> Bootstrap e Responsividade </h2>
+    <h2> Versão do Bootstrap </h2>
     <br>
+
+    <p> Verificar no site do <a href="https://getbootstrap.com">Bootstrap</a> qual a versão mais
+    atualizada para realização do projeto.  </p>
+    <p> Neste curso iremos utilizar a Versão: v4 </p><br>
+
+    <br>
+    <h2> Configurando a Utilização </h2>
+    <br>
+
+    <p> <b>1</b> - Realizar o Download no site do Bootstrap, que está mencionada 
+      acima. </p>
+    <p> <b>2</b> - Descompactar a Pasta e Incluir Dentro da Pasta do Projeto. </p>
+    <p> <b>3</b> - Copiar o exemplo de Documento HTML Padrão ( Starter Template) na Aba = "Getting Starded - Introduction". </p>
+    <p> <b>4</b> - Refenciar a Folha de Estilo de CSS "stylesheet" do Bootstrap da Pasta do Projeto. </p>
+    <p> <b>" ../bootstrap/css/bootstrap.min.css "</b> </p>
+    <p> <b>OBS.:</b> Ao carregar o Bootstrap no próprio diretório do projeto
+    ao inves de um Link CDN do Site Oficial, dever excluido os atributos 
+    <b>"INTEGRITY"</b> e <b>"CROSSORIGIN"</b> [ Pois são chaves Criptográficas para Carragamento do Arquivos Externo ]. </p>
+    <p> <b>OBS.:</b> Fazer o mesmo procedimento citado acima para os arquivos JS. </p><br>
+
+    <br>
+    <h2> Formatação de Textos </h2>
+    <br>
+
+    <h1>Cabeçalho 1</h1>
+    <h2 style="border: none; color: black;">Cabeçalho 2</h2>
+    <!-- FOI COLOCADO O ESTILO NO H2 ACIMA PARA LIMPAR O ESTILO PADRÃO QUE 
+    ESTÁ SENDO USANDO NESTE PROJETO. ASSIM PODEMOS VIZUALIZAR MELHOR OS 
+    EXEMPLOS -->
+    <h3>Cabeçalho 3</h3>
+    <h4>Cabeçalho 4</h4>
+    <h5>Cabeçalho 5</h5>
+    <h6>Cabeçalho 6</h6><br>
+    <p> Os Cabeçalhos H1 ... H6, recebem configurações padrões no Bootstrap. </p>
+
+    <hr>
+
+    <h1 class="display-1">Display 1</h1>
+    <h2 class="display-2"style="border: none; color: black;">Display 2</h2>
+    <!-- FOI COLOCADO O ESTILO NO H2 ACIMA PARA LIMPAR O ESTILO PADRÃO QUE 
+    ESTÁ SENDO USANDO NESTE PROJETO. ASSIM PODEMOS VIZUALIZAR MELHOR OS 
+    EXEMPLOS -->
+    <h3 class="display-3" >Display 3</h3>
+    <h4 class="display-4">Display 4</h4><br>
+    
+    <p> No Exemplo acima, as <b>CLASSES "DISPLAY"</b> são formar de destacar mais 
+    determinadas informações dentro do seu Projeto. </p>
+    <p> Exemplo de Código da Classe: <b>class="display-1"</b></p>
+
+    <hr>
+
+    <p> Exemplo de Parágrafo Comum [ SEM o <b>class="lead""</b> ] </p>
+    <p class="lead"> Exemplo de Parágrafo Comum [ COM o <b>class="lead"</b> ] </p>
+
+    <hr>
+    
+    <p class="text-monospace"> Exemplo de Parágrafo Comum [ COM o <b>class="text-monospace"</b> ] </p>
+    <p> Que se trata de um parágrafo onde o espaçamento das letras são iguais. </p>
 
     
 
     
+
+
+
+
+
+
   </div>  
   <br><br><br><br><br>
   <!-- FIM CONTEÚDO -->
