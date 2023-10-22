@@ -539,6 +539,155 @@
     <h2> Botões </h2>
     <br>
 
+    <!-- Botoes 
+    formatação padrao: btn
+    formatação específicas:
+    btn-primary, btn-secondary, btn-success, btn-info,
+    btn-warning, btn-danger, btn-light, btn-dark, btn-link
+    -->
+
+    <h4>Botões</h4>
+    <button class="btn btn-primary" type="button">Clique</button>
+    <p class="texto-red">Código: class="btn btn-success"</p>
+    <p> Podemos usar as classes: <b> btn-primary | btn-secondary | btn-success | btn-info | btn-warning | btn-danger | btn-light | btn-dark | btn-link</b>  </p>
+
+    <hr><hr>
+
+    <h4>Botões com diferentes tags</h4>
+    <p>São diferentes TAGs, porém aplicadas as mesmas configurações
+      onde não se vê diferença entre elas.
+    </p>
+
+    <a class="btn btn-info" href="#">Link</a>
+    <button class="btn btn-info" type="submit">Submit</button>
+    <input class="btn btn-info" type="button" value="Button">
+    <input class="btn btn-info" type="submit" value="Input Submit">
+    <input class="btn btn-info" type="reset" value="Reset">
+
+    <hr><hr>
+
+    <!-- Botoes com contorno 
+    btn-outline-<formato>
+    -->
+    <h4>Botões com contorno</h4>
+
+    <button class="btn btn-outline-primary" type="button">Clique</button>
+    <p class="texto-red">Código: class="btn btn-outline-primary"</p>
+    <p> Podemos usar as classes: <b> btn-outline-primary | btn-outline-secondary | btn-outline-success | btn-outline-info | btn-outline-warning | btn-outline-danger | btn-outline-light | btn-outline-dark | btn-outline-link</b>  </p>
+
+    <hr><hr>
+
+    <!-- Tamanhos de botões
+    opções: btn-lg, btn-sm, btn-block
+    -->
+    <h4>Tamanhos dos botões</h4>
+
+    <button class="btn btn-warning btn-lg" type="button">Grande</button>
+    <p class="texto-red">Código: class="btn btn-lg"</p>
+
+    <button class="btn btn-warning" type="button">Normal</button>
+    <p class="texto-red">Código: class="btn"</p>
+
+    <button class="btn btn-warning btn-sm" type="button">Pequeno</button>
+    <p class="texto-red">Código: class="btn btn-sm"</p>
+
+    <button class="btn btn-warning btn-block float-center w-75 d-inline" type="button">Bloco</button>
+    <p class="texto-red">Código: class="btn btn-block"</p>
+
+    <hr><hr>
+
+
+    <!-- Estados dos botões
+    opções: active, disabled
+    -->
+    <h4>Estados de botões</h4>
+    <p><b> Importante esse tratamento quando estamos criando sistemas </b></p>
+
+    <button class="btn btn-danger" type="button">Normal</button>
+    <p>Comportamento Normal no Botão</p>
+
+    <button class="btn btn-danger active" type="button">Ativo</button>
+    <p class="texto-red">Código: class="btn active"</p>
+    <p>Comportamento como se estivesse ativo para click</p>
+
+    <button class="btn btn-danger disabled" type="button">Inativo</button>
+    <p class="texto-red">Código: class="btn disabled"</p>
+    <p>Comportamento como se estivesse inativo para click</p>
+
+    <button class="btn btn-danger" type="button" data-toggle="button">Alternar</button>
+    <p class="texto-red">Código: class="btn" data-toggle="button"</p>
+    <p>Comportamento alterana conforme o comportamento de click do usuário</p>
+
+    <hr><hr>
+
+    <h4>Grupos de botões - Horizontal</h4>
+    <p>Criar uma DIV e colocar os Botões dentro</p>
+    <p class="texto-red">Código DIV: class="btn-group" </p>
+
+    <div class="btn-group">
+        <button class="btn btn-outline-dark" type="button">Esquerda</button>
+        <button class="btn btn-outline-dark" type="button">Centro</button>
+        <button class="btn btn-outline-dark" type="button">Direita</button>
+    </div>
+    <br><br>
+
+    <hr><hr>
+
+    <h4>Grupos de botões - Vertical</h4>
+    <p>Criar uma DIV e colocar os Botões dentro</p>
+    <p class="texto-red">Código DIV: class="btn-group-vertical" </p>
+
+    <div class="btn-group-vertical">
+        <button class="btn btn-outline-dark" type="button">Topo</button>
+        <button class="btn btn-outline-dark" type="button">Meio</button>
+        <button class="btn btn-outline-dark" type="button">Fundo</button>
+    </div>
+
+    <hr><hr>
+
+    <h4>Toolbar de botões</h4>
+    <p>Criar uma DIV e colocar a DIV de cada Grupo de Botões dentro</p>
+    <p class="texto-red">Código DIV Toolbar: class="btn-toolbar" </p>
+    <p class="texto-red">Código DIV Grupo Botões: class="btn-group" </p>
+
+    <div class="btn-toolbar">
+        <div class="btn-group">
+           <button class="btn btn-danger" type="button">1</button>
+           <button class="btn btn-danger" type="button">2</button>
+           <button class="btn btn-danger" type="button">3</button>
+        </div>
+        <div class="btn-group">
+            <button class="btn btn-danger" type="button">4</button>
+            <button class="btn btn-danger" type="button">5</button>
+        </div>
+    </div>
+
+    <hr><hr>
+
+    <h4>Botões dropdown</h4>
+    <p>Criar uma DIV com cada botão + Para cada Botão uma DIV com seus itens</p>
+    <p class="texto-red">Código DIV Dropdown: class="dropdown" </p>
+    <p class="texto-red">Código Botão: class="btn dropdown-toggle" data-toggle="dropdown" </p>
+    <p class="texto-red">Código DIV Itens Botões: class="dropdown-menu" </p>
+    <p class="texto-red">Código Itens: class="dropdown-item" </p>
+    <p class="texto-red">Código Divisor de itens: DIV + class="dropdown-divider" </p>
+
+    <p><b>OBS.:</b> Para funcionar precisa dos SCRIPTs do JS-BootStrap no final do Body</p>
+
+
+    <div class="dropdown">
+        <button class="btn btn-danger dropdown-toggle" data-toggle="dropdown" type="button">
+            Clique
+        </button>
+        <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Link 1</a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">Link 2</a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">Link 3</a>
+        </div>
+    </div>
+
 
 
 
@@ -570,9 +719,12 @@
 
 
 
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
   </div>  
-  <br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br>
   <!-- FIM CONTEÚDO -->
 
  </body>
