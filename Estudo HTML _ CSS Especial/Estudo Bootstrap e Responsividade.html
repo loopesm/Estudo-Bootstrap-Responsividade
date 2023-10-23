@@ -1471,26 +1471,65 @@
 
     <h4>Alertas</h4>
 
-    <div>
+    <div class="alert alert-primary">
       <strong>Primary</strong> você tem uma postagem pendente!
     </div>
+    <p class="texto-red">Código DIV Geral: class="alert alert-primary"</p>
+
+    <div class="alert alert-secondary">
+      <strong>Secondary</strong> você tem uma postagem pendente!
+    </div>
+    <p class="texto-red">Código DIV Geral: class="alert alert-secondary"</p>
+
+    <div class="alert alert-success">
+      <strong>Success</strong> você tem uma postagem pendente!
+    </div>
+    <p class="texto-red">Código DIV Geral: class="alert alert-success"</p>
+
+    <div class="alert alert-danger">
+      <strong>Danger</strong> você tem uma postagem pendente!
+    </div>
+    <p class="texto-red">Código DIV Geral: class="alert alert-danger"</p>
+
+    <div class="alert alert-warning">
+      <strong>Warning</strong> você tem uma postagem pendente!
+    </div>
+    <p class="texto-red">Código DIV Geral: class="alert alert-warning"</p>
+
+    <div class="alert alert-info">
+      <strong>Info</strong> você tem uma postagem pendente!
+    </div>
+    <p class="texto-red">Código DIV Geral: class="alert alert-info"</p>
+
+    <div class="alert alert-light">
+      <strong>Light</strong> você tem uma postagem pendente!
+    </div>
+    <p class="texto-red">Código DIV Geral: class="alert alert-light"</p>
+
+    <div class="alert alert-dark">
+      <strong>Dark</strong> você tem uma postagem pendente!
+    </div>
+    <p class="texto-red">Código DIV Geral: class="alert alert-dark"</p>
 
     <hr>
 
     <h4>Alerta com botão fechar</h4>
 
-    <div>
-      <button type="button">
+    <div class="alert alert-success alert-dismissible">
+      <button class="close" data-dismiss="alert" type="button">
         &times;
       </button>
       <strong>Fechar</strong> Alerta com botão fechar
     </div>
-    
+
+    <p class="texto-red">Código DIV Geral: class="alert alert-success alert-dismissible"</p>
+    <p class="texto-red">Código Botão: class="close" data-dismiss="alert"</p>
+
     <hr>
 
     <h4>Alerta com mais conteúdos</h4>
 
-    <div>
+    <div class="alert alert-info">
       
       <h4>Título</h4>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a metus in purus malesuada vulputate. Sed lacinia quam massa, eu consectetur tortor faucibus sed.</p>
@@ -1503,22 +1542,164 @@
 
     <h4>Barra de progresso</h4>
 
-    <div>
-      <div></div>
+    <div class="progress">
+      <div class="progress-bar" style="width: 75%;"> 75% </div>
     </div>
+
+    <br>
+
+    <div class="progress">
+      <div class="progress-bar bg-dark" style="width: 50%;"> 50% </div>
+    </div>
+
+    <br>
+
+    <p class="texto-red">Código DIV Geral: class="progress"</p>
+    <p class="texto-red">Código DIV Barra: class="progress-bar" style="width: 75%;" </p>
+    <p class="texto-red">Código DIV Barra: class="bg-sucess"</p>
     
     <hr>
 
     <h4>Altura</h4>
+
+    <div class="progress" style="height: 50px;">
+      <div class="progress-bar bg-danger" style="width: 80%;"> 80% </div>
+    </div>
+
+    <br>
+
+    <div class="progress" style="height: 25px;">
+      <div class="progress-bar bg-warning" style="width: 60%;"> 60% </div>
+    </div>
+
+    <br>
+
+    <p class="texto-red">Código DIV Geral: class="progress" style="height: 25px;"</p>
+    <p class="texto-red">Código DIV Barra: class="progress-bar" style="width: 75%;" </p>
+    <p class="texto-red">Código DIV Barra: class="bg-sucess"</p>
     
+    <hr>
 
     <h4>Listrado</h4>
-    
+
+    <div class="progress" style="height: 25px;">
+      <div class="progress-bar bg-info progress-bar-striped" style="width: 90%;"> 90% </div>
+    </div>
+
+    <br>
+
+    <p class="texto-red">Código DIV Geral: class="progress" style="height: 25px;"</p>
+    <p class="texto-red">Código DIV Barra: class="progress-bar progress-bar-striped" style="width: 75%;" </p>
+    <p class="texto-red">Código DIV Barra: class="bg-sucess"</p>
+
+    <hr>
 
     <h4>Animado</h4>
-    
+
+    <div class="progress" style="height: 25px;">
+      <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width: 100%;"> 100% </div>
+    </div>
+
+    <br>
+
+    <p class="texto-red">Código DIV Geral: class="progress" style="height: 25px;"</p>
+    <p class="texto-red">Código DIV Barra: class="progress-bar progress-bar-striped" style="width: 75%;" </p>
+    <p class="texto-red">Código DIV Barra: class="bg-sucess"</p>
+
+    <hr>
 
     <h4>Múltiplas barras</h4>
+
+    <div class="progress" style="height: 25px;">
+      <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width: 100%;"> 100% </div>
+      <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width: 100%;"> 100% </div>
+      <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width: 100%;"> 100% </div>
+    </div>
+
+    <hr>
+
+    <br>
+    <h2> Tabelas e Paginações </h2>
+    <br>
+
+    <h2>Tabelas: table</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Produto</th>
+          <th>Marca</th>
+          <th>Preço</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>00001</td>
+          <td>Iphone X</td>
+          <td>Apple</td>
+          <td>R$ 6.999</td>
+        </tr>
+        <tr>
+          <td>00002</td>
+          <td>Nexus 5</td>
+          <td>LG</td>
+          <td>R$ 999</td>
+        </tr>
+        <tr>
+          <td>00003</td>
+          <td>Notebook VAIO</td>
+          <td>Sony</td>
+          <td>R$ 1.999</td>
+        </tr>
+      </tbody>
+
+    </table>
+
+    <h2>Tabela escura: table-dark</h2>
+    
+
+    <h2>Tabela com cabeçalho escuro: thead-dark</h2>
+    
+
+    <h2>Tabela com formatações: table-striped, 
+      table-bordered, table-borderless</h2>
+    
+
+    <h2>Classes contextuais: table-success, table-danger, table...</h2>
+    
+
+    <h2>Tabela pequena: table-sm</h2>
+    
+
+    <h2>Tabela responsiva: table-responsive</h2>
+    
+    
+    <h2>Paginação: pagination, page-item, page-link - active, disabled</h2>
+    <nav>
+      <ul>
+        <li>
+          <a href="">Anterior</a>
+        </li>
+        <li>
+          <a href="">1</a>
+        </li>
+        <li>
+          <a href="">2</a>
+        </li>
+        <li>
+          <a href="">Próximo</a>
+        </li>
+      </ul>
+    </nav>
+
+    <h2>Alinhamento: justify-content-ALINHAMENTO(center, end) </h2>
+    
+
+    <h2>Tamanho: pagination-TAMANHO(sm, lg) </h2>
+    
+
+    <h2>Setas </h2>
 
        
 
