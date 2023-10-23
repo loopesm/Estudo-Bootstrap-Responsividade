@@ -12,10 +12,10 @@
   <meta name="description" content="Conteúdos sobre o estudo em CSS em um nível avançado.">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link rel="stylesheet" href="/Estudo HTML _ CSS Especial/style/normalize.css">
-  <link rel="stylesheet" href="/Estudo HTML _ CSS Especial/style/estilo.css">
-  <link rel="stylesheet" href="/Estudo HTML _ CSS Especial/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/Estudo HTML _ CSS Especial/style/media-queries-breakpoints.css">
+  <link rel="stylesheet" href="/Estudo Bootstrap/style/normalize.css">
+  <link rel="stylesheet" href="/Estudo Bootstrap/style/estilo.css">
+  <link rel="stylesheet" href="/Estudo Bootstrap/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/Estudo Bootstrap/style/media-queries-breakpoints.css">
   
  </head>
 
@@ -2090,6 +2090,177 @@
     <br>
     <h2>Cards</h2>
     <br>
+
+    <h3>Cartão simples</h3>
+
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Título do cartão</h4>
+        <h6 class="card-subtitle">Subtítulo do cartão</h6>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+        <a class="btn btn-outline-primary" href="">Leia mais</a>
+      </div>
+    </div>
+
+    <br>
+
+    <p class="texto-red">TAGs Cards = DIV | DIV | H4 | H6 | P | Link </p>
+    <p class="texto-red">Código DIV Geral = class="card"</p>
+    <p class="texto-red">Código DIV Corpo = class="card-body"</p>
+    <p class="texto-red">Código H4 = class="card-title"</p>
+    <p class="texto-red">Código H6 = class="card-subtitle"</p>
+    <p class="texto-red">Código P = class="card-text"</p>
+
+    <hr>
+
+    <h3>Cartão com imagem</h3>
+    
+    <div class="card">
+      <img class="card-img-top" src="https://source.unsplash.com/random/1000x500" alt="">
+      <div class="card-body">
+        <h4 class="card-title">Título do cartão</h4>
+        <h6 class="card-subtitle">Subtítulo do cartão</h6>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+        <a class="btn btn-outline-primary" href="">Leia mais</a>
+      </div>
+    </div>
+
+    <br>
+
+    <p class="texto-red">TAGs Cards = DIV | IMG | DIV | H4 | H6 | P | Link </p>
+    <p class="texto-red">Código DIV Geral = class="card"</p>
+    <p class="texto-red">Código IMG = class="card-img-top"</p>
+    <p class="texto-red">Código IMG = class="card-img-bottom"</p>
+    <p class="texto-red">Código DIV Corpo = class="card-body"</p>
+    <p class="texto-red">Código H4 = class="card-title"</p>
+    <p class="texto-red">Código H6 = class="card-subtitle"</p>
+    <p class="texto-red">Código P = class="card-text"</p>
+
+    <hr>
+
+    <h3>Cartão com imagem sobreposta</h3>
+
+    <div class="card">
+      <img class="card-img" src="https://source.unsplash.com/random/1000x500" alt="">
+      <div class="card-img-overlay">
+        <h4 class="card-title">Título do cartão</h4>
+        <h6 class="card-subtitle">Subtítulo do cartão</h6>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+        <a class="btn btn-outline-primary" href="">Leia mais</a>
+      </div>
+    </div>
+
+    <br>
+
+    <p class="texto-red">TAGs Cards = DIV | IMG | DIV | H4 | H6 | P | Link </p>
+    <p class="texto-red">Código DIV Geral = class="card"</p>
+    <p class="texto-red">Código IMG = class="card-img-top"</p>
+    <p class="texto-red">Código IMG = class="card-img-bottom"</p>
+    <p class="texto-red">Código DIV Corpo = class="card-img-overlay"</p>
+    <p class="texto-red">Código H4 = class="card-title"</p>
+    <p class="texto-red">Código H6 = class="card-subtitle"</p>
+    <p class="texto-red">Código P = class="card-text"</p>
+    
+    <hr>
+
+    <h3>Cartão com cabeçalho</h3>
+
+    <div class="card">
+      <div class="card-header">
+        Cabeçalho Cartão
+      </div>
+      <div class="card-body">
+        <h4 class="card-title">Título do cartão</h4>
+        <h6 class="card-subtitle">Subtítulo do cartão</h6>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+        <a class="btn btn-outline-primary" href="">Leia mais</a>
+      </div>
+    </div>
+
+    <br>
+
+    <p class="texto-red">TAGs Cards = DIV | DIV  | DIV | H4 | H6 | P | Link </p>
+    <p class="texto-red">Código DIV Geral = class="card"</p>
+    <p class="texto-red">Código DIV Cabeçalho = class="card-header"</p>
+    <p class="texto-red">Código DIV Corpo = class="card-body"</p>
+    <p class="texto-red">Código H4 = class="card-title"</p>
+    <p class="texto-red">Código H6 = class="card-subtitle"</p>
+    <p class="texto-red">Código P = class="card-text"</p>
+    
+    <hr>
+
+    <h3> Cartão com cabeçalho e rodapé / Alinhamento</h3>
+
+    <div class="card">
+      <div class="card-header">
+        Cabeçalho Cartão
+      </div>
+      <div class="card-body">
+        <h4 class="card-title">Título do cartão</h4>
+        <h6 class="card-subtitle">Subtítulo do cartão</h6>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+        <a class="btn btn-outline-primary" href="">Leia mais</a>
+      </div>
+      <div class="card-footer">
+        Rodapé Cartão
+      </div>
+    </div>
+
+    <br>
+
+    <p class="texto-red">TAGs Cards = DIV | DIV  | DIV | H4 | H6 | P | Link | DIV </p>
+    <p class="texto-red">Código DIV Geral = class="card"</p>
+    <p class="texto-red">Código DIV Cabeçalho = class="card-header"</p>
+    <p class="texto-red">Código DIV Corpo = class="card-body"</p>
+    <p class="texto-red">Código H4 = class="card-title"</p>
+    <p class="texto-red">Código H6 = class="card-subtitle"</p>
+    <p class="texto-red">Código P = class="card-text"</p>
+    <p class="texto-red">Código DIV Rodapé = class="card-footer"</p>
+
+    <hr>
+
+    <h3>Cartão com navegação</h3>
+
+    <div class="card">
+      <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" href="">Link 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Link 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Link 3</a>
+          </li>
+        </ul>
+      </div>
+      <div class="card-body">
+        <h4 class="card-title">Título do cartão</h4>
+        <h6 class="card-subtitle">Subtítulo do cartão</h6>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+        <a class="btn btn-outline-primary" href="">Leia mais</a>
+      </div>
+      <div class="card-footer">
+        Rodapé Cartão
+      </div>
+    </div>
+
+    <br>
+
+    <p class="texto-red">TAGs Cards = DIV | DIV ( UL + LI )  | DIV | H4 | H6 | P | Link | DIV </p>
+    <p class="texto-red">Código DIV Geral = class="card"</p>
+    <p class="texto-red">Código DIV Cabeçalho = class="card-header"</p>
+    <p class="texto-red">Código UL = class="nav nav-tabs card-header-tabs"</p>
+    <p class="texto-red">Código LI = class="nav-item"</p>
+    <p class="texto-red">Código LINK = class="nav-link active"</p>
+    <p class="texto-red">Código DIV Corpo = class="card-body"</p>
+    <p class="texto-red">Código H4 = class="card-title"</p>
+    <p class="texto-red">Código H6 = class="card-subtitle"</p>
+    <p class="texto-red">Código P = class="card-text"</p>
+    <p class="texto-red">Código DIV Rodapé = class="card-footer"</p>
+
+    <br><br>
 
 
 
