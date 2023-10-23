@@ -1,1 +1,1 @@
-# Estudo-Bootstrap-Responsividade
+# Estudo-Bootstrap-e-Responsividade
