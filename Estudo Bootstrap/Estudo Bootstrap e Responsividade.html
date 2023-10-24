@@ -2420,41 +2420,87 @@
     <h2>Jumbotron e Alinhamento de Imagens</h2>
     <br>
 
-    <h3 class="border-bottom">Jumbotron</h3>
-    <div>
-        <h1>Música para todos.</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+    <h4>Jumbotron</h4>
+
+    <div class="jumbotron">
+        <h1 class="display-4">Música para todos.</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
         <hr>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <a href="">Leia mais</a>
+        <a class="btn btn-primary btn-lg" href="">Leia mais</a>
     </div>
 
-    <h3 class="border-bottom">Estrutura para imagens</h3>
-    <div>
-      <img src="https://source.unsplash.com/random/60x60">
-      <div>
+    <p class="texto-red">Código DIV = class="jumbotron"</p>
+
+    <hr>
+
+    <h4>Estrutura para imagens</h4>
+
+    <div class="media border">
+      <img class="mr-3" src="https://source.unsplash.com/random/60x60">
+      <div class="media-body">
         <h5>Título do conteúdo</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
       </div>
     </div>
 
-    <br><br>
+    <p class="texto-red">Código DIV Geral = class="media"</p>
+    <p class="texto-red">Código IMG = class="mr-3"</p>
+    <p class="texto-red">Código DIV = class="media-body"</p>
 
-    <h3 class="border-bottom">Alinhamentos: align-self-ALINHAMENTO (start, center, end) </h3>
+    <hr>
+
+    <h4>Alinhamentos: align-self-ALINHAMENTO (start, center, end) </h4>
+
+    <div class="media border">
+      <img class="mr-3 align-self-center" src="https://source.unsplash.com/random/60x60">
+      <div class="media-body">
+        <h5>Título do conteúdo</h5>
+        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+      </div>
+    </div>
+
+    <p class="texto-red">Código IMG = class="align-self-start"</p>
+    <p class="texto-red">Código IMG = class="align-self-center"</p>
+    <p class="texto-red">Código IMG = class="align-self-end"</p>
+
+    <hr>
     
+    <h4>Listas com imagens</h4>
 
-    <h3 class="border-bottom">Listas com imagens</h3>
-    <ul>
+    <ul class="list-unstyled">
       
-      <li>
-        <img src="https://source.unsplash.com/random/80x80">
-        <div>
+      <li class="media border-bottom pb-2 pt-2">
+        <img class="mr-2 align-self-center" src="https://source.unsplash.com/random/80x80">
+        <div class="media-body">
           <h5>Título do conteúdo</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl.</p>
+          <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl.</p>
+          </div>
+      </li>
+
+      <li class="media border-bottom pb-2 pt-2">
+        <img class="mr-2 align-self-center" src="https://source.unsplash.com/random/80x80">
+        <div class="media-body">
+          <h5>Título do conteúdo</h5>
+          <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl.</p>
+          </div>
+      </li>
+
+      <li class="media border-bottom pb-2 pt-2">
+        <img class="mr-2 align-self-center" src="https://source.unsplash.com/random/80x80">
+        <div class="media-body">
+          <h5>Título do conteúdo</h5>
+          <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl.</p>
           </div>
       </li>
 
     </ul>
+
+    <p class="texto-red">Código UL = class="list-unstyled"</p>
+    <p class="texto-red">Código LI = class="media"</p>
+    <p class="texto-red">Código DIV = class="media-body"</p>
+
+    <hr>
 
 
 
