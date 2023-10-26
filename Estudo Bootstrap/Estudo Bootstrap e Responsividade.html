@@ -2502,6 +2502,207 @@
 
     <hr>
 
+    <br>
+    <h2>Ícones</h2>
+    <br>
+
+    <p><b>Links de Ícones Recomendados para uso no Bootstrap:</b></p>
+
+    <a href="https://fonts.google.com/icons">Google Icons</a><br>
+    <a href="https://fontawesome.com/icons?d=gallery&m=free">Font Awesome</a><br>
+    <a href="https://octicons.github.com/">OCTICONS</a><br>
+    <a href="https://ionic.io/ionicons">IONIC</a><br><br>
+
+    <p><b>Para usar ícones do Font Awesome: </b></p>
+    <p class="texto-red">Código = "i" + class="do icone"</p>
+    <p class="texto-red">Código = "span" + class="do icone"</p>
+
+    <p><b>Verificar o carregamento do site baixando a pasta ou com script direto para o site.</b></p>
+
+    <br>
+    <h2> Sistema de Grids </h2>
+    <br>
+
+    <p><b>É muito importante saber que um sistema de grid é composto por 
+      "no máximo" 12 grids ( Colunas ).</b></p>
+
+    <div class="card">
+      <img class="card-img-top" src="/Estudo Bootstrap/img/1-grid-bootstrap.jpg" alt="">
+    </div>
+
+    <br>
+  
+    <div class="card">
+      <img class="card-img-top" src="/Estudo Bootstrap/img/2-grid-exemplo.png" alt="">
+    </div>
+
+    <br>
+  
+    <div class="card">
+      <img class="card-img-top" src="/Estudo Bootstrap/img/3-grid-exemplo2.png" alt="">
+    </div>
+
+    <p class="texto-red">Código DIV Linha = class="row"</p>
+    <p>Define uma Linha ( Area Horizontal que vai ser trabalhada ) </p>
+
+    <p class="texto-red">Código DIV Coluna = class="col-12"</p>
+    <p>Define uma Coluna  ( Area Vertical que vai ser trabalhada ) </p>
+    <p>O Numero vai do 1 ao 12</p>
+
+    <br>
+    <h2>Colunas com base nas Telas</h2>
+    <br>
+
+    <p>Extra Small</p>
+    <p class="texto-red">Código DIV Coluna = class="col-12"</p>
+
+    <p>Small</p>
+    <p class="texto-red">Código DIV Coluna = class="col-sm-12"</p>
+
+    <p>Medium</p>
+    <p class="texto-red">Código DIV Coluna = class="col-lg-12"</p>
+
+    <p> Extra Large</p>
+    <p class="texto-red">Código DIV Coluna = class="col-xl-12"</p>
+
+    <br>
+    <h2>Configurações dos Grids</h2>
+    <br>
+
+    <div>
+      
+      <h4>Largura fixa</h4>
+
+        <div class="row" style="border: 3px solid red;">
+
+          <div class="bg-primary col">Área 01</div>
+          <div class="bg-primary col">Área 02</div>
+          <div class="bg-primary col">Área 03</div>
+          <div class="bg-primary col">Área 04</div>
+
+        </div>
+
+        <br>
+        <p class="texto-red">Código DIV Linha = class="row"</p>
+        <p class="texto-red">Código DIV Coluna = class="col"</p>
+
+      <hr>
+
+      <h4>Largura automática (auto-layout)</h4>
+
+        <div class="row" style="border: 3px solid red;">
+
+          <div class="bg-secondary col">Área 01</div>
+          <div class="bg-secondary col">Área 02</div>
+          <div class="bg-secondary col-6">Área 03</div>
+
+        </div>
+
+        <br>
+        <p class="texto-red">Código DIV Linha = class="row"</p>
+        <p class="texto-red">Código DIV Coluna = class="col"</p>
+        <p>Define somente para determinadas colunas e o restante ajusta automaticamente</p>
+
+      <hr>
+
+      <h4>Largura igual empilhada</h4>
+
+        <div class="row" style="border: 3px solid red;">
+
+          <div class="bg-secondary col-md">Área 01</div>
+          <div class="bg-secondary col-md">Área 02</div>
+          <div class="bg-secondary col-md">Área 03</div>
+
+        </div>
+
+        <br>
+        <p class="texto-red">Código DIV Linha = class="row"</p>
+        <p class="texto-red">Código DIV Coluna = class="col-sm"</p>
+        <p>Define o tamanho da tela que será empilhado um item sobre o outro</p>
+
+      <hr>
+
+      <h4>Ordenando</h4>
+
+        <div class="row" style="border: 3px solid red;">
+
+          <div class="bg-secondary col-md order-3">Área 01</div>
+          <div class="bg-secondary col-md order-2">Área 02</div>
+          <div class="bg-secondary col-md order-1">Área 03</div>
+
+        </div>
+
+        <br>
+        <p class="texto-red">Código DIV Linha = class="row"</p>
+        <p class="texto-red">Código DIV Coluna = class="col-sm order-1"</p>
+        <p>No numero da ordem, colocar a sequencia</p>
+
+      <hr>
+
+      <h4>Offset</h4>
+
+        <div class="row" style="border: 3px solid red;">
+
+          <div class="bg-secondary col-md-6 offset-md-3">Área 01</div>
+
+        </div>
+
+        <br>
+        <p class="texto-red">Código DIV Linha = class="row"</p>
+        <p class="texto-red">Código DIV Coluna = class="col-sm offset-md-3"</p>
+        <p>Usado para movimentas a area trabalhada, ou centralizar no caso acima</p>
+
+      <hr>
+
+      <h4>Offset múltiplos alinhamentos</h4>
+
+        <div class="row" style="border: 3px solid red;">
+
+          <div class="bg-secondary col-md-3">Área 01</div>
+          <div class="bg-secondary col-md-3 offset-md-6">Área 02</div>
+
+        </div>
+
+        <br>
+        <p class="texto-red">Código DIV Linha = class="row"</p>
+        <p class="texto-red">Código DIV Coluna = class="col-sm offset-md-6"</p>
+        <p>Funciona da mesma maneira, porém alinhando mais de um item entre as 12 colunas disponiveis</p>
+
+      <hr>
+
+      <h4>Aninhamento</h4>
+
+      <div class="row" style="border: 3px solid red;">
+        <div class="bg-success col-md-6">
+          Col-md-6
+          <div class="row" style="border: 3px solid blue;">
+            <div class="bg-info col-md-6">
+              Col-md-6 ( Dentro da Col-md-6 Anterior)
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p>Define um novo sistema de grip de 12 colunas dentro de uma coluna</p>
+      <p>DIV Row - DIV Col - DIV Row - DIV Col</p>
+
+    </div>
+
+
+
+      
+      
+    
+
+
+
+
+
+
+    
+
+
+
 
 
 
