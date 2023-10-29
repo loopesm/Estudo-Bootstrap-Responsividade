@@ -1,7 +1,7 @@
 /* INÍCIO DAS CONFIGURAÇÕES GERIAS DA PÁGINA */
 
 #corpo-pagina-geral{
-    background: yellow
+    background: #ffffff;
 }
  
 #corpo-cabecalho{
@@ -16,6 +16,14 @@
 }
 
 #corpo-conteudo{
+    background: #FFFFFF;
+    margin: 0 auto;
+    width: 95%;
+    text-align: center;
+}
+
+/* classe para corrigir Bug dos Flex Box passando da DIV */
+.corpo-conteudo{
     background: #FFFFFF;
     margin: 0 auto;
     width: 95%;
