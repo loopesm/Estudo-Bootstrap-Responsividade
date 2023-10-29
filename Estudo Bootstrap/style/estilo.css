@@ -34,16 +34,31 @@ h2{
 }
 
 .texto-red{
-    color: red;
+    color: #ff0000;
     font-weight: bold;
 
 }
 
 /* FIM DAS CONFIGURAÇÕES GERIAS DA PÁGINA */
 
-/* INÍCIO CONFIGURAÇÃO CONTEÚDOS */
+/* INÍCIO CONFIGURAÇÃO CONTEÚDO */
+
+        /* INÍCIO CONFIGURAÇÃO TÓPICO "CLASSES DO FLEX BOX" */
+
+        .caixa-flexbox-int{
+            border: 3px solid #FF0000;
+            background: #CCCCCC;
+            height: 200px;
+        }
+
+        .item-flexbox-int{
+            border: 1px solid #000000;
+            padding: 5px;
+        }
 
 
 
+        /* FIM CONFIGURAÇÃO TÓPICO "CLASSES DO FLEX BOX" */
 
-/* FIM CONFIGURAÇÃO CONTEÚDOS */
+
+/* FIM CONFIGURAÇÃO CONTEÚDO */
