@@ -1,11 +1,5 @@
 /* INÍCIO DAS CONFIGURAÇÕES GERIAS DA PÁGINA */
 
-*{
-    margin: 0px;
-    padding: 0px;
-    /* border: 1px solid red; */
-}
-
 #corpo-pagina-geral{
     background: #FF0000;
 }
